@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lato:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+body::-webkit-scrollbar {
+    width: 10px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: #1a1a1a;        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #ec5547;    /* цвет плашки */
+    border-radius: 2px;       /* закругления плашки */
+    border: 2px solid #1a1a1a;  /* padding вокруг плашки */
+  }
+
+
+body {
+    background:linear-gradient(70deg, #101010, #1a1a1a);
+    /* background-color: #101010; */
+    color: white;
+    margin: auto;
+    text-align: left;
+    font-family: Roboto;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+p {
+    font-size: 21px;
+}
+
+section {
+    
+}
+
+[class*="route-panel-types"] {
+    display: none !important;
+}
+
+.top {    
+    background:linear-gradient(240deg, #ec5547, #a73025);
+}
+
+.top {    
+    
+}
+
+.bottom {
+    
+}
+
+.content {
+    height: auto;
+    border-radius: 18px;
+}
+
+.info {
+    width: 800px;
+}
+
+.formula {
+}
+
+.map {
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    border: 5px solid #ffffff;
+    border-radius:16px;
+    color: #ec5547;
+    background-color: #ffffff;
+}
+
+.routeInfo {
+    width: 800px;
+    margin: auto;
+    margin-top: 32px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.routeElem {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.routeElem p {
+    font-size: 32px;
+
+}
+
+.routeName p {
+    font-size: 32px;
+}
+
+footer hr {
+    width: 90%;
+    margin: auto;
+    color: #616161;
+}
+
+footer p {
+    margin-top: 20px;
+    width: 95%;
+    color:rgb(109, 109, 109);
+    text-align: right;
+    font-size: 16px;
+}
+
+.hr hr{
+    color: white;
+    width: 100%;
+}
+
+.element-animation{
+    opacity: 0;
+    -webkit-transform: translateY(25px);
+}
+
+.element-animation.element-show{
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transition: 1s;
+}
+
+.name.element-animation.element-show{
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transition: 1s;
+}
+

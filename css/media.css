@@ -1,0 +1,268 @@
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  
+}
+  
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .content {
+        width: 90%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 44px;
+    }
+    
+    p {
+        font-size:28px;
+    }
+    
+    .formula {
+    }
+
+    .map {
+        height: 70vh;
+        width: 98%;
+    }
+
+    .info{
+        width: auto;
+    }
+
+    .routeInfo {
+        width: 100%;
+        display: inline-table;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+    }
+
+    .routeElem {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .routeElem p{
+        font-size: 42px;
+    }
+
+    .routeName p{
+        font-size: 42px;
+    }
+
+    footer p {
+        width: 95%
+    }
+}
+  
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .content {
+        width: 90%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+    
+    p {
+        font-size: 24px;
+    }
+    
+    .formula {
+    }
+
+    .map {
+        height: 70vh;
+        width: 98%;
+    }
+
+    .info{
+        width: auto;
+    }
+
+    .routeInfo {
+        width: 100%;
+        display: inline-table;
+        justify-content: unset;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .routeElem {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .routeElem p{
+        font-size: 33px;
+    }
+
+    .routeName p{
+        font-size: 33px;
+    }
+
+    footer p {
+        width: 95%
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .content {
+        width: 90%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+    
+    p {
+        font-size: 22px;
+    }
+    
+    .formula {
+    }
+
+    .map {
+        height: 70vh;
+        width: 98%;
+    }
+
+    .info{
+        width: auto;
+    }
+
+    .routeInfo {
+        width: 100%;
+        display: inline-table;
+        justify-content: unset;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+    }
+
+    .routeElem {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .routeElem p{
+        font-size: 28px;
+    }
+
+    .routeName p{
+        font-size: 28px;
+    }
+
+    footer p {
+        width: 95%
+    }
+}
+  
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    .content {
+        width: 90%;
+        margin: auto;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    .formula {
+    }
+
+    .map {
+        height: 70vh;
+        width: 98%;
+    }
+
+    .info{
+        width: auto;
+    }
+
+    .routeInfo {
+        width: 100%;
+        display: inline-table;
+        justify-content: unset;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+    }
+
+    .routeElem {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .routeElem p{
+        font-size: 22px;
+    }
+
+    .routeName p{
+        font-size: 22px;
+    }
+
+    footer p {
+        width: 95%
+    }
+}
+  
+/* Small phones */
+@media (max-width: 320px) {
+    h2 {
+        font-size: 22px;
+    }
+    
+    p {
+        font-size: 16px;
+    }
+    
+    .formula {
+    }
+
+    .map {
+        height: 70vh;
+        width: 98%;
+    }
+
+    .info{
+        width: auto;
+    }
+
+    .routeInfo {
+        width: 100%;
+        display: inline-table;
+        justify-content: unset;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 22px;
+    }
+
+    .routeElem {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .routeElem p{
+        font-size: 22px;
+    }
+
+    .routeName p{
+        font-size: 22px;
+    }
+
+    footer p {
+        width: 95%
+    }
+} 
